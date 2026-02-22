@@ -1,188 +1,130 @@
----
-
-# Schema: hugoblox/author/v1
-
-slug: me
-
-is_owner: true
-
-
-name:
-
-  display: Stefano Blando
-
-  given: Stefano
-
-  family: Blando
-
-  pronouns: he/him
-
-
-status:
-
-  icon: "🎓"
-
-
-role: PhD Researcher in Artificial Intelligence
-
-
-# BIO BREVE (Per la sidebar/widget)
-bio: |
-   Stefano Blando is a PhD Researcher within the National PhD Program in AI (SSSA & UniPi). His research combines Agent-Based Modeling, Multi-Agent Reinforcement Learning, and Graph Neural Networks to develop adaptive cognitive            
-  architectures for economic agents in complex socio-economic networks. He employs Statistical Model Checking and robust statistical methods to bridge the gap between theoretical models and empirical validation, with growing interests in 
-  Agentic AI for economic simulation.
-  
-affiliations:
-  - name: Scuola Superiore Sant'Anna
-    url: https://www.santannapisa.it
-  - name: University of Pisa
-    url: https://www.unipi.it/
-  - name: University of Rome Tor Vergata
-    url: https://web.uniroma2.it/
-
-links:
-
-  - icon: at-symbol
-
-    url: mailto:stefano.blando@santannapisa.it
-
-    label: E-mail Me
-
-  - icon: brands/github
-
-    url: https://github.com/stefanoblando
-
-  - icon: brands/linkedin
-
-    url: https://www.linkedin.com/in/stefano-blando/
-
-  - icon: academicons/google-scholar
-
-    url: https://scholar.google.com/
-
-
-interests:
-
-   - Agent-Based Modeling (ABM)
-   - Multi-Agent Reinforcement Learning (MARL)
-   - Graph Neural Networks (GNNs)
-   - Agentic AI
-   - Statistical Model Checking
-   - Robust Statistics & Functional Data Analysis
-   - Systemic Risk & Complex Networks
-
-
-
-
-education:
-
-  - degree: PhD in Artificial Intelligence
-
-    institution: Scuola Superiore Sant'Anna & University of Pisa
-
-    start: 2025-11-01
-
-    summary: |
-
-      Research Focus: "Validation of Complex Dynamical Stochastic Systems".
-
-      Methodologies: Automated Parameter Calibration (ABC/SBI), Ensemble Analysis, and Deep Learning for Financial Topology.
-
-
-  - degree: Master in AI, ML & Data Science (CESMA)
-
-    institution: University of Rome Tor Vergata
-
-    start: 2025-02-03
-
-    end: 2026-02-02
-
-    summary: |
-
-      Thesis: "Network Topology and Machine Learning for Systemic Risk".
-
-      Focus: Graph Neural Networks (GNNs), Early Warning Systems, and Financial Machine Learning.
-
-
-  - degree: MSc in Economics of Markets & Financial Intermediaries
-
-    institution: University of Rome Tor Vergata
-
-    start: 2022-10-20
-
-    end: 2025-04-04
-
-    summary: |
-
-      Thesis: "High-dimensional Robust Portfolio Optimization Under Contamination".
-
-      Focus: Robust Statistics, Quantitative Finance, and Factor-Analytic Approaches.
-
-
-  - degree: BSc in Governance & International Relations
-
-    institution: University of Rome Tor Vergata
-
-    start: 2019-09-15
-
-    end: 2022-10-19
-
-    summary: |
-
-      Focus on Political Economy and International Relations.
-
-      Thesis: "Consumer Choice Under Uncertainty: From Homo Oeconomicus to Homo Temperatus".
-
-
-  - degree: BA in Philosophy (paused for personal reasons)
-
-    institution: University of Rome La Sapienza
-
-    start: 2014-09-01
-
-    end: 2017-07-01
-
-    summary: "Foundational studies in Logic and Philosophy of Science."
-
-# --- EXPERIENCE (Struttura Originale) ---
-# --- EXPERIENCE ---
-experience:
-  - role: PhD Researcher
-    org: Scuola Superiore Sant'Anna
-    company_url: 'https://www.santannapisa.it/'
-    location: Pisa, Italy
-    start: '2023-11-01'
-    # Lascia vuoto end per "Present"
-    summary: |                                                                                                                                                                                                                                  
-      Conducting research at the intersection of Agent-Based Computational Economics and AI
-      within the National PhD Program in AI (SSSA & UniPi).                                                                                                                                                                                   
-      * Developing adaptive cognitive architectures (MARL + GNN) for economic network formation.
-      * Applying Statistical Model Checking for formal validation of agent-based models.
-      * Exploring Agentic AI and robust statistical methods for complex socio-economic systems.
-
-  - role: Academic Tutor
-    org: University of Rome Tor Vergata
-    company_url: 'https://web.uniroma2.it/'
-    location: Rome, Italy
-    start: '2020-03-01'
-    end: '2025-01-31'
-    summary: |
-      Held 5 academic tutorship positions across university faculties:
-      * **Faculty of Economics & Finance (x2):** Statistical consulting at the **Data Processing Center** and support for Supply Chain Management courses.
-      * **Faculty of Law (x3):** Management and research support at the Faculty Library.
-      * **Awards:** Recipient of Academic Tutorship Awards for excellence.
-
-  - role: Secretary General & Team Lead
-    org: Starting Finance Club Tor Vergata
-    location: Rome, Italy
-    start: '2024-10-01'
-    end: '2025-02-01'
-    summary: |
-      Coordinated a team of 70+ members and organized financial workshops and events.
-      * Led macroeconomic and sectoral analysis initiatives.
-      * Facilitated partnerships with financial firms and organized networking visits.
-
-skills:
+  # Schema: hugoblox/author/v1                                                                                                                                                                                                                
+  slug: me                                                                                                                                                                                                                                    
+  is_owner: true                                                                                                                                                                                                                              
+
+  name:                                                                                                                                                                                                                                       
+    display: Stefano Blando                                                                                                                                                                                                                   
+    given: Stefano                                                                                                                                                                                                                            
+    family: Blando                                                                                                                                                                                                                            
+    pronouns: he/him
+
+  status:
+    icon: "🎓"
+
+  role: PhD Researcher in Artificial Intelligence
+
+  bio: |
+    Stefano Blando is a PhD Researcher within the National PhD Program in AI (SSSA & UniPi).
+    His research combines Agent-Based Modeling, Multi-Agent Reinforcement Learning, and Graph
+    Neural Networks to develop adaptive cognitive architectures for economic agents in complex
+    socio-economic networks. He employs Statistical Model Checking and robust statistical methods
+    to bridge the gap between theoretical models and empirical validation, with growing interests
+    in Agentic AI for economic simulation.
+
+  affiliations:
+    - name: Scuola Superiore Sant'Anna
+      url: https://www.santannapisa.it
+    - name: University of Pisa
+      url: https://www.unipi.it/
+    - name: University of Rome Tor Vergata
+      url: https://web.uniroma2.it/
+
+  links:
+    - icon: at-symbol
+      url: mailto:stefano.blando@santannapisa.it
+      label: E-mail Me
+    - icon: brands/github
+      url: https://github.com/stefanoblando
+    - icon: brands/linkedin
+      url: https://www.linkedin.com/in/stefano-blando/
+    - icon: academicons/google-scholar
+      url: https://scholar.google.com/
+
+  interests:
+    - Agent-Based Modeling (ABM)
+    - Multi-Agent Reinforcement Learning (MARL)
+    - Graph Neural Networks (GNNs)
+    - Agentic AI
+    - Statistical Model Checking
+    - Robust Statistics & Functional Data Analysis
+    - Systemic Risk & Complex Networks
+
+  education:
+    - degree: PhD in Artificial Intelligence
+      institution: Scuola Superiore Sant'Anna & University of Pisa
+      start: 2025-11-01
+      summary: |
+        Research Focus: "Learning How to Learn: Adaptive Cognitive Architectures for Economic
+        Network Formation". Methodologies: Agent-Based Modeling, MARL, GNNs, Statistical Model
+        Checking, Robust Statistics, and Functional Data Analysis.
+
+    - degree: Master in AI, ML & Data Science (CESMA)
+      institution: University of Rome Tor Vergata
+      start: 2025-02-03
+      end: 2026-02-02
+      summary: |
+        Thesis: "Network Topology and Machine Learning for Systemic Risk".
+        Focus: Graph Neural Networks (GNNs), Early Warning Systems, and Financial Machine Learning.
+
+    - degree: MSc in Economics of Markets & Financial Intermediaries
+      institution: University of Rome Tor Vergata
+      start: 2022-10-20
+      end: 2025-04-04
+      summary: |
+        Thesis: "High-dimensional Robust Portfolio Optimization Under Contamination".
+        Focus: Robust Statistics, Quantitative Finance, and Factor-Analytic Approaches.
+
+    - degree: BSc in Governance & International Relations
+      institution: University of Rome Tor Vergata
+      start: 2019-09-15
+      end: 2022-10-19
+      summary: |
+        Focus on Political Economy and International Relations.
+        Thesis: "Consumer Choice Under Uncertainty: From Homo Oeconomicus to Homo Temperatus".
+
+    - degree: BA in Philosophy (paused for personal reasons)
+      institution: University of Rome La Sapienza
+      start: 2014-09-01
+      end: 2017-07-01
+      summary: "Foundational studies in Logic and Philosophy of Science."
+
+  experience:
+    - role: PhD Researcher
+      org: Scuola Superiore Sant'Anna
+      company_url: "https://www.santannapisa.it/"
+      location: Pisa, Italy
+      start: "2025-11-01"
+      summary: |
+        Conducting research at the intersection of Agent-Based Computational Economics and AI
+        within the National PhD Program in AI (SSSA & UniPi).
+        * Developing adaptive cognitive architectures (MARL + GNN) for economic network formation.
+        * Applying Statistical Model Checking for formal validation of agent-based models.
+        * Exploring Agentic AI and robust statistical methods for complex socio-economic systems.
+        * **Teaching Assistant:** Supporting courses in Computational Economics and AI.
+
+    - role: Academic Tutor
+      org: University of Rome Tor Vergata
+      company_url: "https://web.uniroma2.it/"
+      location: Rome, Italy
+      start: "2020-03-01"
+      end: "2025-01-31"
+      summary: |
+        Held 5 academic tutorship positions across university faculties:
+        * **Faculty of Economics & Finance (x2):** Statistical consulting at the **Data Processing Center** and support for Supply Chain Management courses.
+        * **Faculty of Law (x3):** Management and research support at the Faculty Library.
+        * **Awards:** Recipient of Academic Tutorship Awards for excellence.
+
+    - role: Secretary General & Team Lead
+      org: Starting Finance Club Tor Vergata
+      location: Rome, Italy
+      start: "2024-10-01"
+      end: "2025-02-01"
+      summary: |
+        Coordinated a team of 70+ members and organized financial workshops and events.
+        * Led macroeconomic and sectoral analysis initiatives.
+        * Facilitated partnerships with financial firms and organized networking visits.
+
+  skills:
     - name: Technical Skills
       items:
         - label: Python (PyTorch, PyG)
@@ -209,94 +151,52 @@ skills:
         - label: Robust Statistics
           level: 4
         - label: Functional Data Analysis
-          level: 3
+          level: 4
         - label: Statistical Model Checking
           level: 4
         - label: Network Science
           level: 4
         - label: Multi-Agent Reinforcement Learning
-          level: 4
+          level: 3
 
+  languages:
+    - name: Italian
+      level: 5
+      label: Native
+    - name: English
+      level: 5
+      label: Fluent (C1/C2)
+    - name: French
+      level: 3
+      label: Intermediate (B1)
+    - name: German
+      level: 2
+      label: Basic (A1)
+    - name: Spanish
+      level: 2
+      label: Basic (A2)
 
-
-languages:
-
-  - name: Italian
-
-    level: 5
-
-    label: Native
-
-  - name: English
-
-    level: 5
-
-    label: Fluent (C1/C2)
-
-  - name: French
-
-    level: 3
-
-    label: Intermediate (B1)
-
-  - name: German
-
-    level: 2
-
-    label: Basic (A1)
-
-  - name: Spanish
-
-    level: 2
-
-    label: Basic (A2)
-
-awards:
-
-  - title: Bertelsmann Next Gen Tech Booster
-
-    awarder: Udacity & Bertelsmann
-
-    date: "2024-11-01"
-
-    summary: "Selected for Generative AI Nanodegree (Top 1% of candidates)."
-
-    icon: hero/star
-
-  - title: 1st Place Huawei DigitALL Night
-
-    awarder: Huawei
-
-    date: "2024-03-01"
-
-    summary: "Winner of digital technology and networks competition."
-
-    icon: hero/trophy
-
-  - title: 2nd Place AI Data Hackathon
-
-    awarder: ""
-
-    date: "2024-12-12"
-
-    icon: hero/star
-
-  - title: Academic Tutorship Awards (x2)
-
-    awarder: University of Rome Tor Vergata
-
-    date: "2024-01-01"
-
-    summary: "Awarded twice for excellence in student support and teaching assistance."
-
-    icon: hero/academic-cap
-
-  - title: Alpine Climate Data Challenge Finalist
-
-    awarder: "Alpine Climate Data Challenge"
-
-    date: "2025-03-12"
-
-    icon: hero/star
-
-
+  awards:
+    - title: Bertelsmann Next Gen Tech Booster
+      awarder: Udacity & Bertelsmann
+      date: "2024-11-01"
+      summary: "Selected for Generative AI Nanodegree (Top 1% of candidates)."
+      icon: hero/star
+    - title: 1st Place Huawei DigitALL Night
+      awarder: Huawei
+      date: "2024-03-01"
+      summary: "Winner of digital technology and networks competition."
+      icon: hero/trophy
+    - title: 2nd Place AI Data Hackathon
+      awarder: ""
+      date: "2024-12-12"
+      icon: hero/star
+    - title: Academic Tutorship Awards (x2)
+      awarder: University of Rome Tor Vergata
+      date: "2024-01-01"
+      summary: "Awarded twice for excellence in student support and teaching assistance."
+      icon: hero/academic-cap
+    - title: Alpine Climate Data Challenge Finalist
+      awarder: Alpine Climate Data Challenge
+      date: "2025-03-12"
+      icon: hero/star
