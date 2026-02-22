@@ -28,11 +28,9 @@ role: PhD Researcher in Artificial Intelligence
 
 # BIO BREVE (Per la sidebar/widget)
 bio: |
-  Stefano Blando is a PhD Researcher within the National PhD Program in AI (SSSA & UniPi).
-
-  Bridging Scientific Machine Learning (SciML) and Agent-Based Modeling (ABM), his research addresses the validation gap in complex adaptive systems.
-
-  He analyzes evolving financial networks through the lens of Statistical Model Checking (SMC), grounding theoretical dynamics in empirical reality to map systemic risk in non-ergodic environments.
+   Stefano Blando is a PhD Researcher within the National PhD Program in AI (SSSA & UniPi). His research combines Agent-Based Modeling, Multi-Agent Reinforcement Learning, and Graph Neural Networks to develop adaptive cognitive            
+  architectures for economic agents in complex socio-economic networks. He employs Statistical Model Checking and robust statistical methods to bridge the gap between theoretical models and empirical validation, with growing interests in 
+  Agentic AI for economic simulation.
   
 affiliations:
   - name: Scuola Superiore Sant'Anna
@@ -65,19 +63,14 @@ links:
 
 interests:
 
-  - Agent-Based Modeling (ABM)
+   - Agent-Based Modeling (ABM)
+   - Multi-Agent Reinforcement Learning (MARL)
+   - Graph Neural Networks (GNNs)
+   - Agentic AI
+   - Statistical Model Checking
+   - Robust Statistics & Functional Data Analysis
+   - Systemic Risk & Complex Networks
 
-  - Simulation-Based Inference (SBI)
-
-  - Graph Neural Networks (GNNs)
-
-  - Non-Ergodic Economics
-
-  - Statistical Model Checking
-
-  - High-Dimensional Statistics
-
-  - Systemic Risk & Resilience
 
 
 
@@ -160,11 +153,12 @@ experience:
     location: Pisa, Italy
     start: '2023-11-01'
     # Lascia vuoto end per "Present"
-    summary: |
-      Conducting research on the validation of complex systems within the National PhD Program in AI.
-      * Developing Automated Parameter Calibration methods using Simulation-Based Inference (SBI).
-      * Applying Graph Neural Networks (GNNs) for Systemic Risk prediction.
-      * **Teaching Assistant:** Supporting courses in Computational Economics and AI.
+    summary: |                                                                                                                                                                                                                                  
+      Conducting research at the intersection of Agent-Based Computational Economics and AI
+      within the National PhD Program in AI (SSSA & UniPi).                                                                                                                                                                                   
+      * Developing adaptive cognitive architectures (MARL + GNN) for economic network formation.
+      * Applying Statistical Model Checking for formal validation of agent-based models.
+      * Exploring Agentic AI and robust statistical methods for complex socio-economic systems.
 
   - role: Academic Tutor
     org: University of Rome Tor Vergata
@@ -189,67 +183,40 @@ experience:
       * Facilitated partnerships with financial firms and organized networking visits.
 
 skills:
+    - name: Technical Skills
+      items:
+        - label: Python (PyTorch, PyG)
+          level: 5
+        - label: R
+          level: 5
+        - label: MATLAB
+          level: 4
+        - label: LaTeX
+          level: 5
+        - label: Git & GitHub
+          level: 4
+        - label: SQL
+          level: 3
+        - label: HPC Computing
+          level: 3
 
-  - name: Technical Skills
+    - name: Research Methods
+      items:
+        - label: Agent-Based Modeling (ABM)
+          level: 5
+        - label: Machine Learning & Deep Learning
+          level: 5
+        - label: Robust Statistics
+          level: 4
+        - label: Functional Data Analysis
+          level: 3
+        - label: Statistical Model Checking
+          level: 4
+        - label: Network Science
+          level: 4
+        - label: Multi-Agent Reinforcement Learning
+          level: 4
 
-    items:
-
-      - label: Python (PyTorch, PyG)
-
-        level: 5
-
-      - label: R
-
-        level: 5
-
-      - label: SQL
-
-        level: 5
-
-      - label: MATLAB
-
-        level: 5
-
-      - label: Git & GitHub
-
-        level: 4
-
-      - label: LaTeX
-
-        level: 5
-
-      - label: HPC Computing
-
-        level: 3
-
-
-  - name: Research Methods
-
-    items:
-
-      - label: Machine Learning
-
-        level: 5
-
-      - label: Agent-Based Modeling (ABM)
-
-        level: 5
-
-      - label: Simulation-Based Inference
-
-        level: 5
-
-      - label: Network Science
-
-        level: 4
-
-      - label: Systemic Risk Analysis
-
-        level: 4
-
-      - label: Causal Inference
-
-        level: 4
 
 
 languages:
