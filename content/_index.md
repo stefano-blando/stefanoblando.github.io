@@ -1,4 +1,5 @@
- # Leave the homepage title empty to use the site title
+  ---                                                                                                                                                                                                                                         
+  # Leave the homepage title empty to use the site title
   title: ''                                                                                                                                                                                                                                   
   summary: ''     
   date: 2022-10-24
@@ -26,7 +27,7 @@
           size: large
           shape: circle
 
-    # 2. RESEARCH OVERVIEW
+  # 2. RESEARCH OVERVIEW
     - block: markdown
       content:
         title: '📚 Research Overview'
@@ -75,3 +76,4 @@
       design:
         view: citation
         columns: 1
+  ---   
