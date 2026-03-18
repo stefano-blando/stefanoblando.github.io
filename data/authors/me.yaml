@@ -63,24 +63,30 @@
       start: 2025-02-03
       end: 2026-02-02
       summary: |
-        Thesis: "Network Topology and Machine Learning for Systemic Risk".
-        Focus: Graph Neural Networks (GNNs), Early Warning Systems, and Financial Machine Learning.
+        Final Grade: 110/110 cum laude.
+        Thesis: "Network Topology Analysis and Machine Learning Techniques for Systemic Risk Prediction in U.S. Equity Markets".
+        Focus: Graph Neural Networks (GNNs), early warning systems, and financial machine learning.
+        Program completed with SAS Academic Specialization in Advanced Data Analytics and Machine Learning Engineering.
 
     - degree: MSc in Economics of Markets & Financial Intermediaries
       institution: University of Rome Tor Vergata
       start: 2022-10-20
       end: 2025-04-04
       summary: |
-        Thesis: "High-dimensional Robust Portfolio Optimization Under Contamination".
-        Focus: Robust Statistics, Quantitative Finance, and Factor-Analytic Approaches.
+        Final Grade: 108/110.
+        Thesis: "High-dimensional Robust Portfolio Optimization Under Contamination: A Factor-Analytic Approach".
+        Supervisor: Prof. Alessio Farcomeni.
+        Focus: Robust statistics, quantitative finance, and factor-analytic approaches.
 
     - degree: BSc in Governance & International Relations
       institution: University of Rome Tor Vergata
       start: 2019-09-15
-      end: 2022-10-19
+      end: 2022-09-30
       summary: |
+        Final Grade: 110/110 cum laude.
         Focus on Political Economy and International Relations.
         Thesis: "Consumer Choice Under Uncertainty: From Homo Oeconomicus to Homo Temperatus".
+        Erasmus+ Exchange: University of Paris Est-Creteil (Aug 2021 - Feb 2022).
 
     - degree: BA in Philosophy (paused for personal reasons)
       institution: University of Rome La Sapienza
@@ -113,6 +119,16 @@
         * **Faculty of Economics & Finance (x2):** Statistical consulting at the **Data Processing Center** and support for Supply Chain Management courses.
         * **Faculty of Law (x3):** Management and research support at the Faculty Library.
         * **Awards:** Recipient of Academic Tutorship Awards for excellence.
+
+    - role: Insurance Administrative Assistant
+      org: UnipolSai Frascati
+      location: Frascati, Italy
+      start: "2022-06-01"
+      end: "2022-09-30"
+      summary: |
+        Supported underwriting workflows, policy documentation, and risk-assessment procedures.
+        * Developed practical expertise in insurance operations and compliance.
+        * Strengthened analytical skills in risk evaluation and financial product assessment.
 
     - role: Secretary General & Team Lead
       org: Starting Finance Club Tor Vergata

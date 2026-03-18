@@ -1,5 +1,5 @@
 ---
-title: "Network Topology and Machine Learning for Systemic Risk: From Early Warning to Trading Strategies"
+title: "Network Topology Analysis and Machine Learning Techniques for Systemic Risk Prediction in U.S. Equity Markets"
 authors:
 - me  
 date: "2026-01-15"
@@ -12,11 +12,11 @@ publishDate: "2026-01-23T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["Master Thesis"]
+publication_types: ["7"]
 
 # Publication name and optional abbreviation (e.g. journal).
 publication: "University of Rome Tor Vergata - School of Economics and Finance"
-publication_short: "Working Paper"
+publication_short: "Master Thesis"
 
 abstract: "This paper investigates the predictive power of Graph Neural Networks (GNNs) in forecasting systemic risk events. By modelling financial markets as dynamic complex networks, we extract topological features that serve as early warning signals. The study demonstrates how these signals can be integrated into algorithmic trading strategies to mitigate downside risk during market turmoil, outperforming traditional benchmark models."
 
@@ -38,13 +38,13 @@ links:
 # - name: Follow
 #   url: https://twitter.com/
 - name: Code
-  url: https://github.com/stefano-blando/network-stock-prediction
+  url: https://github.com/stefano-blando/systemic-risk-prediction
 
 url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: '/projects/network-crash-prediction/'
 url_slides: ''
 url_source: ''
 url_video: ''
