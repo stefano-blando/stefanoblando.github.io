@@ -16,12 +16,12 @@ image:
   caption: 'MARS @ ETAPS 2026, Turin'
 ---
 
-I am pleased to share that our paper, **"Statistical model checking of the Island Model: an established economic agent-based model of endogenous growth"**, has been **accepted at MARS @ ETAPS 2026**.
+Our paper, **"Statistical model checking of the Island Model: an established economic agent-based model of endogenous growth"**, has been accepted at **MARS @ ETAPS 2026**.
 
-The work is co-authored with **Giorgio Fagiolo**, **Daniele Giachini**, **Andrea Vandin**, and **Ernest Ivanaj**. In this paper, we show how **statistical model checking** and **MultiVeStA** can be used to automate and strengthen the analysis of the Island Model, a classic agent-based model of endogenous growth. The study reproduces key stylized facts with formal confidence intervals and extends the analysis through counterfactual experiments and statistical hypothesis testing.
+The work is co-authored with **Giorgio Fagiolo**, **Daniele Giachini**, **Andrea Vandin**, and **Ernest Ivanaj**. The paper shows how **statistical model checking** and **MultiVeStA** can be used to make the analysis of the Island Model more rigorous, more automated, and more reproducible, while preserving the economic substance of the original framework.
 
-I will present the paper in **Turin, Italy, on Sunday, April 12, 2026** during the workshop.
+I will present it in **Turin, Italy, on Sunday, April 12, 2026**.
 
-- 📄 **[Read the paper](/publications/island-model-smc/)**
+📄 **[Read the paper](/publications/island-model-smc/)**
 
-This contribution reflects one of the central directions of my current PhD research: bringing more rigorous validation and reproducible statistical guarantees to complex economic simulation models.
+For me, this is one of the clearest examples of the direction I want to push in my PhD work: giving complex simulation models stronger statistical foundations without losing their interpretability.

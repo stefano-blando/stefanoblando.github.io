@@ -1,7 +1,7 @@
 ---
 title: PokéNexus
 date: 2026-02-04
-summary: A Streamlit application that combines Pokémon network visualization, team management, badges, inventory systems, and lightweight game mechanics on top of graph analytics and PokeAPI data.
+summary: A personal side project that brings together my long-standing love for Pokémon with my interest in graph visualization, interactive systems, and Python prototyping.
 tags:
   - Streamlit
   - NetworkX
@@ -20,14 +20,10 @@ links:
     url: https://pokenexus.streamlit.app/
 ---
 
-**PokéNexus** is a playful side project built around the idea of turning the Pokémon universe into an interactive graph-based application. It combines **network visualization**, **game-like progression systems**, and **API-driven data enrichment** inside a single Streamlit interface.
+**PokéNexus** was born from something very simple: I have loved Pokémon since I was a child, and at some point I wanted to merge that world with the kind of tools and ideas I now enjoy building with.
 
-The project uses **NetworkX**, **PyVis**, and **Plotly** to represent relationships between Pokémon types and entities, while **PokeAPI** provides dynamic data for creatures, evolutions, and battle-related information.
+The result is a Streamlit app that turns the Pokémon universe into an interactive space where **graph visualization**, **game mechanics**, and **API-driven data** come together. I used **NetworkX**, **PyVis**, and **Plotly** to explore relationships between types and entities, while **PokeAPI** provides the live data layer for creatures, evolutions, and related information.
 
-**Core Features:**
-* **Interactive graph exploration:** network-based views of Pokémon relations and type structures.
-* **Game systems:** balance, badges, ribbons, inventory, PC box, and team slots managed through session state.
-* **Battle and progression mechanics:** lightweight gameplay loops inspired by gyms, champions, catching, healing, and shop interactions.
-* **Rich frontend styling:** custom UI theme, icons, audio hooks, and multiple interface variants (`app.py`, `app2.py`).
+Instead of being just a static graph, the project grew into a small playable system: teams can be managed, items stored, badges collected, and different progression loops layered on top of the visualization. That mix of structure, exploration, and play is exactly what made the project fun to build.
 
-This project is not a research output but a useful example of how I experiment with **graph thinking**, **interactive interfaces**, and **Python prototyping** outside formal academic work.
+It is not a research project, and it is not meant to be. It is a personal experiment where a childhood passion meets the way I now think about **networks**, **interfaces**, and **interactive Python applications**.

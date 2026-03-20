@@ -1,7 +1,7 @@
 ---
 title: "RiskSentinel for Microsoft AI Dev Days 2026"
 date: 2026-03-15
-summary: "I built RiskSentinel for the Microsoft AI Dev Days Hackathon 2026: a multi-agent systemic risk simulator with live demo, video, and interactive contagion analysis."
+summary: "RiskSentinel is the project I built for Microsoft AI Dev Days Hackathon 2026: a multi-agent simulator for systemic risk, contagion analysis, and interactive stress testing."
 authors:
   - me
 tags:
@@ -16,22 +16,14 @@ image:
   caption: 'RiskSentinel for Microsoft AI Dev Days 2026'
 ---
 
-I am happy to share **RiskSentinel**, the project I developed for the **Microsoft AI Dev Days Hackathon 2026**.
+**RiskSentinel** is the project I built for the **Microsoft AI Dev Days Hackathon 2026**.
 
-RiskSentinel is a **multi-agent systemic risk simulator** designed to explore how shocks propagate across a large equity network. The system combines **network science**, **contagion modeling**, and **agentic AI** to answer stress-test questions such as what happens when a major financial institution experiences a severe drop.
+The core idea was to create a system that could make systemic risk more explorable and more tangible: instead of treating contagion as an abstract output in a paper or a notebook, I wanted an interface where shocks could be launched, propagated, compared, and interpreted in real time.
 
-The project integrates:
+The project combines **network science**, **contagion modeling**, and **agentic AI** on top of research-grade financial network data covering **210 S&P 500 stocks** and **3,081 daily snapshots**. Under the hood, it integrates three propagation models, interactive network analytics with Streamlit and Plotly, and an agentic workflow built with **Microsoft Agent Framework** and **Azure OpenAI**.
 
-- **three contagion models**: DebtRank, Linear Threshold, and Cascade Removal
-- **interactive network analytics** with Streamlit and Plotly
-- **Microsoft Agent Framework** and **Azure OpenAI** for the agentic workflow
-- **research-grade financial network data** covering 210 S&P 500 stocks and 3,081 daily snapshots
+What I like most about this project is that it sits exactly at the boundary between my research interests and practical prototyping: financial networks, complex systems, decision support, and AI agents all in the same tool.
 
-The result is a judge-ready prototype with a **live demo**, **video walkthrough**, and a full public repository.
-
-- 👉 **[View the project page](/projects/risk-sentinel/)**
-- GitHub: **[risk-sentinel](https://github.com/stefano-blando/risk-sentinel)**
-- Live demo: **[Streamlit app](https://risk-sentinel-hxq8pzyujwbmbokegefcaq.streamlit.app/)**
-- Video demo: **[YouTube walkthrough](https://youtu.be/jZ9hkAiap1I)**
-
-This project extends my broader interest in combining **AI agents**, **financial networks**, and **interactive decision-support tools** for complex economic systems.
+👉 **[View the project page](/projects/risk-sentinel/)**  
+GitHub: **[risk-sentinel](https://github.com/stefano-blando/risk-sentinel)**  
+App: **[Streamlit demo](https://risk-sentinel-hxq8pzyujwbmbokegefcaq.streamlit.app/)**
