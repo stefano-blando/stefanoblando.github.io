@@ -3,6 +3,7 @@ title: Network Topology Analysis for Systemic Risk Prediction
 date: 2026-01-10
 summary: Financial machine learning project combining dynamic correlation networks, graph neural networks, and trading backtests to detect systemic risk in U.S. equity markets.
 tags:
+  - Research
   - Systemic Risk
   - Graph Neural Networks
   - Algo Trading

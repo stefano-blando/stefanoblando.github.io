@@ -3,6 +3,7 @@ title: Lightweight Fine-Tuning with PEFT & LoRA
 date: 2024-11-20
 summary: Parameter-efficient fine-tuning pipeline using LoRA to adapt DistilBERT for sentiment analysis while training less than 1% of the model parameters.
 tags:
+  - Side Quest
   - Generative AI
   - NLP
   - PEFT / LoRA

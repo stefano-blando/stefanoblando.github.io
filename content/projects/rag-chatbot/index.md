@@ -3,6 +3,7 @@ title: Custom Chatbot with RAG
 date: 2024-02-15
 summary: Retrieval-augmented chatbot that combines semantic search, custom embeddings, and LLM prompting for grounded domain-specific conversations.
 tags:
+  - Side Quest
   - Generative AI
   - NLP
   - RAG

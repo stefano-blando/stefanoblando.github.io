@@ -3,6 +3,7 @@ title: RiskSentinel - Agentic Systemic Risk Simulator
 date: 2026-03-15
 summary: Multi-agent systemic risk simulator for financial contagion analysis on 210 S&P 500 stocks, built for Microsoft AI Dev Days Hackathon 2026 and deployed as an interactive Streamlit app.
 tags:
+  - Hackathon
   - Multi-Agent Systems
   - Financial AI
   - Systemic Risk

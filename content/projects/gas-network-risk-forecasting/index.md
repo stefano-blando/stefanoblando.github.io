@@ -4,6 +4,7 @@ date: 2024-11-01
 summary: Second-place hackathon project for gas leak risk prediction using geospatial-temporal features, synthetic data augmentation, and SHAP-based interpretability.
 tags:
   - Hackathon
+  - Side Quest
   - Forecasting
   - Imbalanced Learning
   - Explainable AI

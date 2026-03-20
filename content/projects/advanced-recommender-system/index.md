@@ -1,8 +1,9 @@
 ---
-title: TIM Recommender System (Next Best Action)
+title: Advanced Recommender System
 date: 2025-06-20
 summary: Learning-to-rank recommender system for next-best-action prediction, combining Bayesian optimization and ensemble ranking to improve NDCG@5 by 36%.
 tags:
+  - Side Quest
   - Recommender Systems
   - Machine Learning
   - LightGBM

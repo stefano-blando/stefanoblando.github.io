@@ -3,6 +3,7 @@ title: NLP & Semantic Network Analysis
 date: 2026-01-10
 summary: Text analytics project combining correspondence analysis, clustering, and network science to extract stable semantic structure from large unstructured corpora.
 tags:
+  - Research
   - Text Mining
   - Network Science
   - Correspondence Analysis

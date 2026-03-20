@@ -4,6 +4,7 @@ title: Real Estate AI Agent
 date: 2025-03-05
 summary: Autonomous AI agent for property-market analysis, price estimation, and natural-language interaction built on predictive models and LLM orchestration.
 tags:
+  - Side Quest
   - AI Agents
   - LLMs
   - Predictive Modeling

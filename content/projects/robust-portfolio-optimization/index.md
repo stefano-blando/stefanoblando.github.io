@@ -3,6 +3,7 @@ title: High-Dimensional Robust Portfolio Optimization
 date: 2023-06-15
 summary: Robust statistics project developing high-dimensional covariance estimators that preserve portfolio stability under contamination and market stress.
 tags:
+  - Research
   - Quantitative Finance
   - Robust Statistics
   - R Language

@@ -3,6 +3,7 @@ title: AI Photo Editor with SAM & SDXL
 date: 2024-03-10
 summary: Computer vision and generative AI pipeline combining SAM and SDXL for interactive object segmentation and photorealistic image editing.
 tags:
+  - Side Quest
   - Computer Vision
   - Generative AI
   - Stable Diffusion
