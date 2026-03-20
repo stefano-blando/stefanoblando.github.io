@@ -9,10 +9,9 @@ tags:
   - Machine Learning
   - Systemic Risk
   - Tor Vergata
-# Per ora usiamo l'immagine di default del sito, poi la sostituirai con la foto vera
 image:
   placement: 1
-  caption: 'University of Rome Tor Vergata'
+  caption: 'CESMA Master Graduation at University of Rome Tor Vergata'
 ---
 
 I am proud to share that on **Monday, February 2, 2026**, I was awarded the **II Level Master in Customer Experience, Statistics, Machine Learning and Artificial Intelligence (CESMA)** at the **University of Rome Tor Vergata**, with a **final grade of 110/110 cum laude**.
@@ -27,6 +26,3 @@ This work is directly connected to my ongoing research. You can explore the tech
 - 📄 **[Read the Related Paper](/publications/network-crash-prediction/)**
 
 The master provided a strong foundation in advanced statistical methods and AI, which I am now applying to my PhD research at Scuola Superiore Sant'Anna.
-
----
-*(Photo from the ceremony to be added soon)*
