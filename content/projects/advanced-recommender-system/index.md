@@ -19,20 +19,13 @@ image:
   focal_point: Smart
 ---
 
-This project was developed as part of the **CESMA Master's program** at the University of Rome "Tor Vergata" in collaboration with **TIM**. The goal was to build a predictive engine capable of suggesting the most relevant "Next Best Action" to customers, thereby maximizing the effectiveness of marketing campaigns.
+This project was developed within the **CESMA Master's program** in collaboration with **TIM**. Instead of framing the problem as a standard classification task, the system was designed as a **learning-to-rank** pipeline for next-best-action recommendation.
 
-The solution employs a robust machine learning pipeline moving beyond simple classification to a **Learning-to-Rank (LTR)** framework.
+That shift in framing matters because ranking is closer to the actual business decision: not just whether an action is good or bad, but which action should come first for a given user.
 
-### 🚀 Key Technical Highlights
+The pipeline combines careful validation, Bayesian optimization, and ensemble ranking strategies. The end result is a substantial improvement over baseline performance on **NDCG@5**, making the project a solid example of applied machine learning under realistic evaluation constraints.
 
-* **Modular Architecture:** Code organized into distinct modules (`src/`) for data loading, feature engineering, and modeling to ensure reproducibility.
-* **Advanced Validation:** Implemented **Group K-Fold Cross-Validation** to prevent data leakage and ensure realistic performance assessment on unseen users.
-* **Hyperparameter Tuning:** Utilized **Bayesian Optimization** with pruning to efficiently find optimal model configurations.
-* **Ensemble Strategy:** Achieved top performance by combining LightGBM and XGBoost predictions using **Learned Blending** and **Ranking-Aware** weighting strategies.
-
-### 📊 Performance Results
-
-The project successfully demonstrated a significant improvement over the baseline model using the **NDCG@5** metric.
+Performance summary:
 
 | Stage | NDCG@5 Score | Improvement vs Baseline |
 | :--- | :--- | :--- |
@@ -40,4 +33,4 @@ The project successfully demonstrated a significant improvement over the baselin
 | **Best Single Model** | 0.6838 | +35.94% |
 | **Best Ensemble** | **0.6852** | **+36.23%** |
 
-This structured approach delivers a robust and validated solution ready for production environments.
+Overall, it is one of the clearest examples in the portfolio of taking a familiar ML task and reformulating it in a way that is better aligned with the actual decision problem.

@@ -19,12 +19,8 @@ links:
     url: /publications/multi-method%20triangulation%20text-analytics/
 ---
 
-Development of a comprehensive methodology for **extracting knowledge from unstructured text** by bridging statistical analysis with network science. Applied to a case study of *The Adventures of Sherlock Holmes*, this project transforms raw textual data into navigable semantic maps.
+This project started as an attempt to make unstructured text more readable through structure rather than through isolated metrics. The idea was to combine statistical text analysis with network methods so that documents, terms, and semantic clusters could be interpreted as part of the same system.
 
-This line of work later evolved into the related paper on multi-method validation for large-scale multilingual text analytics.
+Applied to a case study on *The Adventures of Sherlock Holmes*, the workflow combines **TF-IDF**, **Correspondence Analysis**, clustering, and keyword co-occurrence networks to transform raw text into navigable semantic maps.
 
-**Technical Stack:**
-* **Text Representation:** Vector Space Model utilizing **TF-IDF** weighting to capture term importance and filter stop-words.
-* **Dimensionality Reduction:** Applied **Correspondence Analysis (CA)** to identify associations between terms and documents in a lower-dimensional factor map.
-* **Clustering & Network Analysis:** Utilized **K-Means** for semantic grouping and the **Louvain algorithm** for detecting modular communities within the keyword co-occurrence network.
-* **Visualization:** Integration with **Gephi** and R libraries (factoextra, igraph) to visualize the topological structure of semantic relationships.
+What makes the project important in the broader portfolio is that it anticipates a later methodological direction: the related paper on multi-method validation for large-scale multilingual text analytics grew out of the same attempt to identify patterns that remain stable across analytical choices.

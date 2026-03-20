@@ -15,17 +15,8 @@ links:
     url: https://github.com/stefano-blando/peft-model-finetuning
 ---
 
-This project implements a complete **Parameter-Efficient Fine-Tuning (PEFT)** pipeline for sequence classification. It addresses the computational bottleneck of adapting Large Language Models (LLMs) by utilizing **LoRA (Low-Rank Adaptation)** to fine-tune `distilbert-base-uncased` on the SST-2 sentiment analysis dataset.
+This project focuses on a practical question in NLP: how much useful adaptation can you obtain from a pretrained model without paying the full cost of fine-tuning everything?
 
-**Methodological Approach:**
-* **LoRA Architecture:** Injects trainable low-rank decomposition matrices (Rank=16, Alpha=32) into the `q_lin` and `v_lin` attention modules.
-* **Frozen Backbone:** Keeps the pre-trained DistilBERT weights frozen, drastically reducing memory footprint during backpropagation.
-* **Targeted Adaptation:** Focuses exclusively on attention mechanisms to capture sentiment patterns without altering the model's core knowledge.
+Using **LoRA** on `distilbert-base-uncased` for sentiment analysis, the pipeline shows that a very small trainable subset of parameters can still deliver a strong performance jump over the zero-shot baseline. That makes the project less about squeezing out maximum benchmark accuracy and more about understanding the trade-off between performance and efficiency.
 
-**Key Results:**
-* **Performance:** Increased accuracy from **43.1%** (zero-shot baseline) to **84.2%** (fine-tuned), with F1-scores exceeding 0.82.
-* **Extreme Efficiency:** Trained only **~295,000 parameters** out of ~124 Million (**0.23%** of the total model).
-* **Resource Optimization:** Achieved state-of-the-art results with minimal VRAM usage, enabling training on consumer-grade GPUs.
-
-**Technical Implementation:**
-Developed in **Python** using the **Hugging Face ecosystem** (`transformers`, `peft`, `datasets`). The pipeline includes modular scripts for zero-shot evaluation, LoRA configuration, training loop optimization, and rigorous inference testing.
+Built with the **Hugging Face** ecosystem, the implementation covers evaluation, LoRA configuration, training, and inference in a lightweight setup that remains accessible on modest hardware.

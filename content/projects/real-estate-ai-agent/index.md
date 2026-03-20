@@ -15,9 +15,6 @@ links:
     url: https://github.com/stefano-blando/real-estate-ai-agent
 ---
 
-This project builds an **Autonomous AI Agent** capable of navigating the real estate market. It combines predictive modeling for price estimation with an LLM-based interface for natural language interaction and automated reasoning.
+This project explores how an AI agent can be used as a practical layer on top of a more traditional predictive workflow. In this case, the domain is real estate: price estimation, market analysis, and user interaction around property-related questions.
 
-**Core Components:**
-* **Valuation Model:** Regression algorithms for property price estimation.
-* **Agentic Workflow:** LangChain/AutoGPT framework for task autonomy.
-* **Market Analysis:** Automated data scraping and trend identification.
+The project combines valuation models with an LLM-based interface for natural-language interaction and task-level orchestration. The interesting part is not just the agent wrapper itself, but the attempt to connect predictive models with a more usable front-end for exploration and decision support.

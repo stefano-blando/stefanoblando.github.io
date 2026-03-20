@@ -19,19 +19,10 @@ links:
     url: /publications/robust-port-opt/
 ---
 
-This project implements the research for **"High-Dimensional Robust Portfolio Optimization Under Sparse Contamination: A Factor-Analytic Approach."** It addresses the failure of traditional covariance estimation during market stress by introducing specialized robust techniques designed for high-dimensional portfolios.
+This project began from a practical quantitative finance problem: in high-dimensional portfolios, covariance estimation becomes unstable exactly when robustness matters most. Outliers, contamination, and market stress can quickly make standard optimization pipelines unreliable.
+
+The work develops a factor-analytic robust framework built around estimators such as **PFSE** and **SSRE**, designed to preserve allocation stability without becoming computationally prohibitive. The emphasis is not only on robustness in a theoretical sense, but on whether the estimator remains usable for actual portfolio construction.
+
+Relative to more conventional robust approaches, the resulting framework improves risk-adjusted performance while also reducing turnover and computational burden. That combination of statistical robustness and operational practicality is what makes the project important to me.
 
 The project is associated with the submitted paper currently listed under publications.
-
-**Novel Methodological Contributions:**
-* **PFSE (Parallel Factor Space Estimator):** A novel approach combining robust factor dimension selection with targeted robustification in the factor space.
-* **SSRE (Sequential Screening Robust Estimator):** A multi-stage approach with preliminary outlier detection followed by robust factor analysis.
-* **SSRE_GLasso:** Enhanced estimation using graphical lasso regularization for better conditioning.
-
-**Key Results:**
-* **Performance:** Achieved **15-20% higher Sharpe ratios** compared to conventional robust estimators (MCD, Tyler’s M-estimator).
-* **Efficiency:** Computation times reduced by **80-90%**, enabling real-time application on high-dimensional data.
-* **Stability:** Reduced portfolio turnover by **30-40%**, significantly lowering transaction costs.
-
-**Technical Implementation:**
-Built entirely in **R**, utilizing parallel processing (`doParallel`) and advanced statistical packages (`robustbase`, `glasso`, `pcaPP`) to perform simulation studies, empirical analysis on S&P 500 data (2015-2025), and rigorous stress testing.

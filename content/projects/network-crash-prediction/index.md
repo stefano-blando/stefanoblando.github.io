@@ -19,22 +19,10 @@ links:
     url: /publications/network%20crash%20prediction/
 ---
 
-This project implements the research for the Master Thesis **"Network Topology Analysis and Machine Learning Techniques for Systemic Risk Prediction in U.S. Equity Markets."** It investigates the application of complex network theory and deep learning to forecast systemic events using daily price data from **210 S&P 500 constituents spanning 2013-2025**.
+This project corresponds to my CESMA thesis on **systemic risk prediction in U.S. equity markets**. The underlying question is simple but important: can network topology say something useful about market stress before standard indicators do?
 
-The project is paired with the related thesis page, where the research contribution is presented as a publication entry.
+Using daily data from **210 S&P 500 constituents (2013-2025)**, the project combines dynamic correlation networks with machine learning models ranging from gradient boosting to **Graph Neural Networks** such as **GraphSAGE** and **GAT**. The goal is not just classification accuracy, but economic usefulness under realistic validation and backtesting constraints.
 
-**Novel Methodological Contributions:**
-* **Hybrid Predictive Framework:** Integration of network-derived features (Eigenvalue entropy, Absorption Ratio, Modularity) with traditional market indicators to predict crash targets.
-* **Advanced Architectures:** Comparison of Gradient Boosting (XGBoost, LightGBM, CatBoost), LSTM networks, and Graph Neural Networks (**GraphSAGE, GAT**) for temporal and topological learning.
-* **Microstructure Analysis:** Examination of herding behavior via the Chang-Cheng-Khorana framework and volatility spillover measurement using the Diebold-Yilmaz methodology.
+The most interesting result is that network-derived signals appear to carry genuine early-warning information, especially around severe and structurally fragile market states. In the strongest configurations, the framework improves both timing and trading performance relative to simpler baselines.
 
-**Key Results:**
-* **Early Warning Signals:** Network features anticipate market movements by an average of **4.2 trading days**, with **88.9%** of Granger causality tests showing significant predictive relationships.
-* **Crisis Detection:** The topology exhibited detectable anomalies an average of **67 days** before major onsets (COVID-19, 2022 Bear Market, SVB Crisis, Japan Carry Trade unwind).
-* **Economic Value:** The best-performing trading strategy (Hybrid ML-trend) achieved a **Sharpe ratio of 0.79** (vs 0.46 for Buy & Hold), reducing max drawdown from 25.4% to 21.2% and delivering a **net outperformance of 21.7%**.
-
-**Technical Implementation:**
-Built entirely in **Python**, utilizing a rigorous validation pipeline:
-* **Libraries:** `PyTorch Geometric` (GNNs), `NetworkX` (Topology), `LightGBM/XGBoost` (Gradient Boosting).
-* **Validation:** Strict **Walk-Forward Cross-Validation with Purging** to prevent lookahead bias.
-* **Simulation:** Contagion simulation through cascade models and transaction cost-adjusted backtesting for trading strategies.
+This project is paired with the related thesis page, where the same work is presented as a publication entry.

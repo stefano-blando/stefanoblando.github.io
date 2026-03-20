@@ -16,12 +16,8 @@ links:
     url: https://github.com/stefano-blando/gas-networks-risk-forecasting
 ---
 
-This project was developed for the **Hera Group Hackathon**, where it earned **2nd place**. The goal was to predict gas network anomalies and leak-related risk using a machine learning pipeline designed for **rare-event detection**.
+This project was developed for the **Hera Group Hackathon**, where it earned **2nd place**. The task was to detect gas leak risk in a setting dominated by imbalance, sparse events, and operational uncertainty.
 
-The workflow focused on combining predictive performance with interpretability:
+The pipeline combines geospatial-temporal feature engineering with synthetic data augmentation through **CTGAN** and **TimeGAN**, then uses **SHAP** to keep the final model interpretable rather than purely predictive.
 
-* **Geospatial-temporal feature engineering:** construction of predictors capturing spatial and temporal structure in the gas network data.
-* **Synthetic data augmentation:** use of **CTGAN** and **TimeGAN** to strengthen learning under class imbalance and improve minority-class detection.
-* **Explainability:** integration of **SHAP** analysis to understand model behavior and identify the most influential drivers of risk.
-
-The project reflects a recurring theme in my work: building machine learning systems that remain useful under data scarcity, imbalance, and operational uncertainty.
+What I still like about this project is its balance between pragmatism and method: it is a hackathon project, but it already reflects an approach I use often, namely trying to make difficult prediction problems more robust without giving up explainability.

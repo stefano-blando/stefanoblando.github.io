@@ -15,23 +15,8 @@ links:
     url: https://github.com/stefano-blando/custom-chatbot
 ---
 
-This project demonstrates advanced natural language processing techniques by creating a specialized chatbot capable of answering questions about a curated dataset of fictional characters. It leverages **Retrieval Augmented Generation (RAG)** to combine the fluency of Large Language Models with the accuracy of a custom knowledge base.
+This project uses a deliberately small but structured domain to explore a larger idea: how to make language-model outputs more reliable by grounding them in retrieved context.
 
-**Methodological Approach:**
-* **Retrieval Augmented Generation (RAG):** Implements a full RAG pipeline that retrieves relevant character profiles before generating responses, ensuring answers are grounded in the provided dataset rather than the model's training data.
-* **Semantic Search:** Utilizes OpenAI embeddings (`text-embedding-ada-002`) to perform semantic similarity searches, allowing the system to understand the *meaning* of a query rather than just matching keywords.
-* **Prompt Engineering:** Features specialized prompt templates that guide the LLM to act as an expert character analyst, enforcing consistent formatting and tone.
+The chatbot is built around a curated dataset of fictional characters and uses a full **RAG** pipeline with embeddings, retrieval, and prompt conditioning. The dataset is playful, but the methodological point is serious: retrieval changes the behavior of the model from generic completion to context-bounded reasoning.
 
-**Key Features:**
-* **Interactive Interface:** Includes both a command-line interface and a web-based GUI (Gradio) for real-time interaction.
-* **Advanced Analysis:** Goes beyond simple retrieval by automatically extracting personality traits, relationships, and occupations to enrich the character data.
-* **Multi-Mode Functionality:**
-    * **Question Answering:** Precise answers about specific characters.
-    * **Recommendations:** Suggests characters based on desired personality traits (e.g., "heroic and bold").
-    * **Comparisons:** Generates detailed comparative analyses between two characters.
-
-**Technical Implementation:**
-Built in **Python**, the system features a modular architecture separating data processing, embedding management, and retrieval logic. It incorporates robust error handling for API calls, batch processing for efficient embedding generation, and dynamic context management to stay within token limits.
-
-**Dataset:**
-The system is built on a diverse dataset of **55 fictional characters** spanning various settings (Ancient Greece, Modern USA, England) and media types (Plays, Movies, Shows), creating a rich testbed for semantic retrieval and relationship mapping.
+Because the underlying data is semantically rich, the system can handle not only question answering but also character comparison, recommendation, and trait-based exploration. That makes it a useful compact example of retrieval-driven NLP design.
