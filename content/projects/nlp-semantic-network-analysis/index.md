@@ -1,7 +1,7 @@
 ---
 title: NLP & Semantic Network Analysis
 date: 2026-01-10
-summary: Text analytics project combining correspondence analysis, clustering, and network science to extract stable semantic structure from large unstructured corpora.
+summary: Technical implementation of the JADT paper pipeline, integrating multilingual preprocessing, topic modeling, correspondence analysis, semantic spaces, sentiment modules, and network-based validation across methods.
 tags:
   - Research
   - Text Mining
@@ -18,8 +18,8 @@ links:
     url: /publications/multi-method-validation-framework/
 ---
 
-This project started as an attempt to make unstructured text more readable through structure rather than through isolated metrics. The idea was to combine statistical text analysis with network methods so that documents, terms, and semantic clusters could be interpreted as part of the same system.
+This project is the technical implementation behind the publication **“A Multi-Method Validation Framework for Large-Scale Multilingual Text Analytics”** (JADT 2026, in review). It operationalizes the full analytical workflow used in the paper, from data preparation to cross-method validation and result comparison.
 
-Applied to a case study on *The Adventures of Sherlock Holmes*, the workflow combines **TF-IDF**, **Correspondence Analysis**, clustering, and keyword co-occurrence networks to transform raw text into navigable semantic maps.
+The pipeline combines **R and Python** modules over a large multilingual review corpus, including: preprocessing and TF-IDF, **LDA topic modeling**, **LSA and Correspondence Analysis**, lexicon- and model-based sentiment analysis, clustering, and **co-occurrence network analysis**. The repository also includes cross-platform validation scripts to compare method outputs and check structural stability across implementations.
 
-What makes the project important in the broader portfolio is that it anticipates a later methodological direction: the related paper on multi-method validation for large-scale multilingual text analytics grew out of the same attempt to identify patterns that remain stable across analytical choices.
+The central objective is methodological robustness: verifying which findings remain consistent when methods, model families, and language-specific components vary. In this sense, the project is not a generic NLP demo, but a reproducible research pipeline designed for quantitative validation of text-analytic conclusions.
