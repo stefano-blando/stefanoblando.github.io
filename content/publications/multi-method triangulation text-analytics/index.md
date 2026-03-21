@@ -15,7 +15,7 @@ publication_types: ["3"]
 
 # Publication name.
 publication: "JADT 2026, Palermo, Italy (in review)"
-publication_short: "JADT 2026"
+publication_short: "JADT 2026 (in review)"
 
 abstract: "To distinguish genuine findings from methodological artifacts, this paper proposes a validation framework based on method-invariant patterns. Analyzing 999,152 multilingual reviews across 18 independent techniques (from classical clustering to Transformers), we demonstrate that substantive content accounts for 95.4% of variance, while methodological choice explains less than 3%. The study confirms that robust patterns transcend specific algorithms and implementations. Furthermore, while BERT achieves peak accuracy (91.3%), classical approaches like SVM offer comparable performance (89.1%) with a 29-fold reduction in computational cost."
 # Summary.

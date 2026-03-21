@@ -17,7 +17,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviation (e.g. journal).
 publication: "Computational Economics (in review)"
-publication_short: "Computational Economics"
+publication_short: "Computational Economics (in review)"
 
 abstract: "This thesis addresses the challenge of portfolio optimization in high-dimensional settings (p > n) affected by sparse contamination (outliers). By proposing a robust Factor-Analytic approach, the study demonstrates how to stabilize covariance matrix estimation against data anomalies. The resulting allocation strategies exhibit superior resilience and risk-adjusted returns compared to traditional Mean-Variance frameworks, especially during market shocks."
 
