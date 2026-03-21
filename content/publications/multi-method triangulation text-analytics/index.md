@@ -28,7 +28,7 @@ tags:
 - BERT
 - Graph Neural Networks
 - Deep Learning
-- Triangulation
+- Validation Framework
 
 # Display this page in the Featured widget?
 featured: true
@@ -51,7 +51,7 @@ url_video: ''
 
 # Featured image
 image:
-  caption: 'Methodological Triangulation'
+  caption: 'Multi-Method Validation Framework'
   focal_point: ""
   preview_only: false
 
