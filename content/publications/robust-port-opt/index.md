@@ -16,13 +16,13 @@ publishDate: "2024-04-04T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviation (e.g. journal).
-publication: "Submitted to Computational Economics"
+publication: "Computational Economics (in review)"
 publication_short: "Computational Economics"
 
 abstract: "This thesis addresses the challenge of portfolio optimization in high-dimensional settings (p > n) affected by sparse contamination (outliers). By proposing a robust Factor-Analytic approach, the study demonstrates how to stabilize covariance matrix estimation against data anomalies. The resulting allocation strategies exhibit superior resilience and risk-adjusted returns compared to traditional Mean-Variance frameworks, especially during market shocks."
 
 # Summary. An optional shortened abstract.
-summary: "Based on my MSc thesis and currently submitted to Computational Economics, this paper develops a robust framework for portfolio optimization under contamination."
+summary: "Based on my MSc thesis, this paper is currently in review at Computational Economics and develops a robust framework for portfolio optimization under contamination."
 
 tags:
 - Quantitative Finance

@@ -26,4 +26,4 @@ The work develops a factor-analytic robust framework built around estimators suc
 
 Relative to more conventional robust approaches, the resulting framework improves risk-adjusted performance while also reducing turnover and computational burden. That combination of statistical robustness and operational practicality is what makes the project important to me.
 
-The project is associated with the submitted paper currently listed under publications.
+The project is associated with the paper currently in review at Computational Economics, listed under publications.
