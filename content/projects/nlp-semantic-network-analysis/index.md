@@ -13,7 +13,7 @@ links:
   - icon: github
     icon_pack: fab
     name: Code
-    url: https://github.com/stefano-blando/sentiment-semantic-lexicometric-network-analysis
+    url: https://github.com/stefano-blando/nlp-semantic-network
   - icon: file-alt
     icon_pack: fas
     name: Paper
