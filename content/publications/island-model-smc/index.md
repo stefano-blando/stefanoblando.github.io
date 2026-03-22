@@ -33,12 +33,14 @@ featured: true
 links:
 - name: News
   url: /blog/mars-etaps-2026-acceptance/
+- name: Interactive Explorer
+  url: /island-model-app/
 
 url_pdf: ''
-url_code: ''
+url_code: 'https://github.com/andrea-vandin/MultiVeStA'
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: '/island-model-app/'
 url_slides: ''
 url_source: ''
 url_video: ''
