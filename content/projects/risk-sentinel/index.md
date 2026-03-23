@@ -17,7 +17,7 @@ links:
     url: https://github.com/stefano-blando/risk-sentinel
   - icon: hero/play-circle
     name: App
-    url: https://risk-sentinel-hxq8pzyujwbmbokegefcaq.streamlit.app/
+    url: https://risk-sentinel-stefanoblando.streamlit.app/
 ---
 
 RiskSentinel is an **agentic systemic risk simulator** built around a question I find both practical and conceptually interesting: if a large financial node is hit by a shock, how can we make the propagation of that stress visible, comparable, and explainable in real time?
@@ -30,4 +30,4 @@ The result is a practical prototype for **systemic risk monitoring**, sitting be
 
 You can explore the project here:
 * **[Repository](https://github.com/stefano-blando/risk-sentinel)**
-* **[App](https://risk-sentinel-hxq8pzyujwbmbokegefcaq.streamlit.app/)**
+* **[App](https://risk-sentinel-stefanoblando.streamlit.app/)**

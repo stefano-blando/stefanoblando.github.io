@@ -11,6 +11,9 @@ tags:
   - Covariance Estimation
   - Computational Economics
 links:
+  - icon: brands/github
+    name: Code
+    url: https://github.com/stefano-blando/robust-portfolio-optimization
   - icon: hero/play-circle
     name: Interactive Explorer
     url: /pfse-app/
